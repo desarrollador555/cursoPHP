@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: rgba(17, 161, 218, 0.918);
+}
+.caja{
+    min-width: 400px;
+    width: 30%;
+    margin: auto;
+}
+.caja .titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+.caja .formulario{
+    padding: 20px;
+    margin: 20px;
+    border:1px solid white;
+    border-radius: 4px;
+    color: white;
+    min-width: 300px;
+}
+.caja .formulario input[type=text],textarea{
+    padding: 10px;
+    margin-bottom: 4px;
+    display: block;
+    color: rgb(0, 0, 0);
+    min-width: 100%;
+    max-width: 100%;
+    border:1px solid blue;
+    border-radius: 4px;
+}
+.caja .formulario input[type=text]:focus,textarea:focus{
+    border:2px solid blue;
+}
+.caja .formulario textarea{
+    min-height: 50px;
+    max-height: 200px;
+}
+.caja .botones{
+    margin-top: 10px;
+}
+.caja .boton{
+    padding: 10px;
+    border:none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.caja .e{
+    background-color: green;
+}
+.caja .c{
+    background-color: red;
+}
+.caja .e:hover{
+    background-color: rgb(1, 87, 1);
+    color: white;
+
+}
+.caja .c:hover{
+    background-color: rgb(116, 0, 0);
+    color: white;
+
+}

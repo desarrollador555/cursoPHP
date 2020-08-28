@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(5, 61, 107);
+}
+.caja{
+    margin:20px;
+}
+.titulo{
+    color: white;
+    margin:20px;
+    text-align: center;
+}
+.imagenes{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.caja{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.caja .boton a{
+    text-decoration: none;
+    color:black;
+}
+.titulo{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.titulo:hover{
+    color: crimson;
+    transition: 1s;
+}
+.noticias{
+    align-content: center;
+    display: flex;
+    
+    flex-direction:row;
+}
+.noticia{
+    width: 30%;
+    border:1px solid black;
+    margin-left: 40px;
+    margin:10px;
+    padding: 6px;
+}
+.noticia .subtitulo{
+    padding: 14px;
+    text-align: center;
+}
+.noticia .imagen{
+    margin:20px 0;
+    max-width: 300px;
+    min-width: 100px;
+    height: auto;
+    padding: 8px;
+}
+.noticia .descripcion{
+    font-size: 15px;
+    margin-bottom:20px;
+}
+
+.noticia .boton{
+    border:none;
+    padding: 15px;
+    background-color: cyan;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.noticia .boton:hover{
+    background-color: rgba(26, 158, 158, 0.726);
+}
+.boton{
+    border:none;
+    padding: 15px;
+    background-color: cyan;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin:20px;
+}
+.boton:hover{
+    background-color: rgba(26, 158, 158, 0.726);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.formulario input[type=text],
+            input[type=email]{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border:1px solid red;
+
+}
+.formulario{
+    align-items: center;
+}
+.formulario .boton{
+    width: 100px;
+    
+    border:none;
+    padding: 15px;
+    background-color: rgb(39, 216, 107);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin:20px;
+}
+.cajaformulario{
+    padding: 2px;
+    background-color: rgba(29, 179, 233,.4);
+    width: 40%;
+    margin:auto;
+    border-radius: 4px;
+}
+.cajapanel{
+    width: 60%;
+    margin:auto;
+}
+.cajapanel .cerrarSession{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgba(0, 119, 255, 0.555);
+    padding: 4px;
+    border-radius: 4px;
+    margin-top:100px;
+
+}
+.paginacion{
+    width: 60%;
+    margin:auto;
+    background-color: rgba(233, 123, 234, .4);
+    margin-top:40px;
+    padding: 40px;
+    border-radius:4px;
+}
+.paginacion .titulo{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.paginacion ul{
+    margin-top:30px;
+}
+.paginacion ul li{
+    border-bottom:1px solid black;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.pagina{
+    width: 50%;
+    margin:auto;
+    background-color: rgba(22, 217, 243, 0.4);
+    margin-top:40px;
+    padding: 40px;
+    border-radius:4px;
+}
+.pagina ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+.pagina ul li{
+    margin-left: 4px;
+    width: auto;
+}
+.pagina ul .boton{
+    background-color: royalblue;
+    padding: 10px 15px;
+    color:white;
+    text-decoration: none;
+}
+.pagina ul .boton:hover{
+    background-color: rgb(11, 40, 128);
+}
+.pagina ul .active{
+    background-color: rgb(11, 40, 128);
+
+}
+.pagina ul .disabled{
+    cursor:not-allowed;
+}

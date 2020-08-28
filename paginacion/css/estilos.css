@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+}
+body{
+    background-color: rgb(163, 220, 223);
+}
+.caja{
+    width: 60%;
+    margin: 10px auto;
+    
+    
+}
+.caja .titulo{
+    text-align: center;
+    margin:10px 0px;
+    color:black;
+}
+.caja .titulo:hover{
+    color: blueviolet;
+}
+.caja .temas{
+    margin-left: 80px;
+}
+.caja .temas ul li{
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+.caja .paginacion{
+    
+    width: 40%;
+    height: 40px;
+    margin: 20px auto;
+}
+.caja .paginacion ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: auto;
+}
+.caja .paginacion ul .boton{
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+
+}
+.caja .paginacion ul .boton:hover{
+    background-color: rgb(17, 74, 180);
+}
+.caja .paginacion ul .active{
+    background-color: rgb(17, 74, 180);
+}
+.caja .paginacion ul .disabled{
+    cursor:not-allowed;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+/* .caja .paginacion ul li{
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+} */

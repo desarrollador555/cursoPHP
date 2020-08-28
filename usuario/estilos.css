@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(13, 51, 66);
+}
+.form{
+    width:400px;
+    min-height: 200px;
+    background-color:rgba(135, 207, 235, 0.787);
+    border:2px solid red;
+    margin:10px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.form .form-clas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.form .form-clas input[type=text],input[type=password]{
+    padding: 10px;
+    margin:10px;
+}
+.form .form-clas input[type=submit]{
+    background-color: green;
+    min-width: 100px;
+    border:none;
+    color: white;
+    margin:10px;
+
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}

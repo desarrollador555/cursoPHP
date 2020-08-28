@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(65, 105, 225, 0.26);
+}
+.caja{
+    width: 90%;
+    margin:auto;
+    
+}
+.caja .titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+.caja .flotar_izquierda{
+    float: right;
+    text-decoration: none;
+    
+}
+.caja .boton{    
+    padding: 10px;
+    background-color: royalblue;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.caja .botoneli{
+    padding: 10px;
+    background-color: rgb(170, 37, 37);
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.caja .botoneli:hover{
+    background-color: rgb(243, 29, 29);
+    color: white;
+    vertical-align: text-top;
+}
+.caja .boton:hover{
+    background-color: rgb(32, 51, 107);
+    color: white;
+    vertical-align: text-top;
+}
+.caja .subirArticulos{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    border:1px solid black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.caja .subirArticulos a{
+    text-decoration: none;
+    color: black;
+}
+.caja .contenido{
+    margin-top: 30px;
+}
+.caja .contenido .tabla{
+    margin-top: 20px;
+}
+.caja .contenido .tabla, thead,th,td,tr{
+    border-collapse: collapse;
+    border:1px solid rgb(211, 16, 16);
+    padding: 10px;
+}
+.caja .contenido  thead:hover,th:hover,td:hover,tr:hover{
+    background-color: turquoise;
+}
+.caja .contenido .tabla .tamaño{
+    min-width: 200px;
+    width: 600px;
+}
+.caja .contenido .tabla .img-tamaño{ 
+    max-width: 70%;
+    display: block;
+    margin: auto;
+}
+.caja .contenido .paginacion{
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caja .contenido .paginacion a{    
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+
+}

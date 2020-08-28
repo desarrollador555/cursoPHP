@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    width: 40%;
+    margin:auto;
+    margin-top: 30px;
+    border:2px solid skyblue;
+    border-top:4px solid blue;
+    padding: 10px;
+    border-radius: 6px;
+}
+.caja h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form input[type=text],
+     input[type=email],
+     textarea{
+        border:1px solid blue;
+        font-size: 20px;
+    }
+
+form input[type=text]:focus,
+     input[type=email]:focus,
+     textarea:focus{
+        border-color: red;
+        /* box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6); */
+        outline: 0 none;
+
+    }
+.caja form textarea{
+    margin-bottom: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 400px;
+    padding: 10px;
+}
+.caja form .boton{
+    border: none;
+    background-color: rgb(3, 3, 88);
+    color: white;
+    width: 30%;
+    margin: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.caja form .boton:hover{
+    background-color:rgb(28, 28, 214) ;
+}
+.caja form .error{
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.caja form .enviado{
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(1, 134, 30);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}

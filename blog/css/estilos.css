@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carta{
+    
+    margin-top: 50px;
+}
+.carta .subtitulo{
+    color: red;
+    text-decoration: none;
+
+}
+.carta .subtitulo:hover{
+    color: red;
+}
+.tamañoimagen{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+.copyright{
+    background-color: teal;
+    color: white;
+    height: 100px;
+    margin-top:10px;
+}
+.copyright p{
+    color: black;
+    
+    padding-top: 40px;
+    text-align: center;
+}
+.error-pagina{
+    padding: 30px;
+    text-align: center;
+    
+    color: black;
+    margin: 250px 10px;
+}
+.buscarTitulo{
+    color: black;
+    margin: 20px;
+}
+.active {
+    color: white !important;
+    }
+    .active:hover {
+    color: white !important;
+    }
+    .formulario{
+        margin:5px auto;
+        padding: 20px;
+        min-width: 500px;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .titulo{
+        text-align: center;
+        margin:10px auto 0px auto;
+    }
+    .formulario input[type=email],
+    input[type=password]{
+        padding: 10px;
+        margin:4px;
+        border:1px solid blue;
+        border-radius: 4px;
+    }
+
+.formulario input[type=email]:focus,
+    input[type=password]:focus{
+        padding: 10px;
+        margin:4px;
+        border:2px solid blue;
+        outline: none;
+    }
+    .formulario input[type=submit]{
+        width: 150px;
+        margin:10px auto;
+        border:none;
+        background-color: rgb(7, 73, 27);
+        padding: 4px;
+        color: white;
+        border-radius: 4px;
+    }
+    .formulario input[type=submit]:hover{
+        background-color: rgb(10, 182, 61);
+        
+    }
+    .formulario .error{
+        background-color: red;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    .container .boton{
+        border:none;
+        background-color: rgb(200, 6, 6);
+        padding: 4px 10px;
+        border-radius: 4px;
+        
+    }
+    .container .botonN{
+        border: none;
+        background-color: green;
+        padding: 4px 10px;
+        border-radius: 4px;
+    }
+    .container .botonN a{
+        color: white;
+    }
+    .container .botonN:hover{
+        background-color: rgb(5, 197, 5);
+    }
+    .container .boton:hover{
+        background-color: rgba(255, 0, 0, 0.829);
+    }
+    .container .boton a{
+        color: white;
+    }
+    .container td a{
+        color: white;
+    }
+    .container .table1{
+        margin-top: 20px;
+    }
+    .container .table1,th,tr,td{
+        padding: 4px;
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+    .container .table1 .tamaño{
+        max-width: 200px;
+    }
+    .container .table1 .imagen{
+        display: block;
+        margin: auto;
+        width: 200px;
+        padding: 5px;
+    }
+    .container .formulario{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container .formulario input,textarea{
+        margin:10px;
+        padding: 10px;
+    }
+   
+.container .formulario textarea{
+    min-height: 200px;
+    max-height: 300px;
+}
